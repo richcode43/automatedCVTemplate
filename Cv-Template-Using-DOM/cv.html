@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cv.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1 class="mainHeading">CURICULUM VITAE (CV)</h1>
+
+            <!-- start of personal info form -->
+            <div class="personalInfo">
+                <h1 class="nameHolder">
+                    <input type="text" name="" id="usersName" placeholder="Enter Full names please">
+                </h1>
+                <h5 class="profession">
+                    <span class="job"><input type="text" id="profession" style="margin-top:20px" placeholder="Enter Your Profession"></span>
+                    <span class="email"><input type="email" name="" id="emailAdd" placeholder="Enter your Email Address"></span>
+                    <span class="phone"><input type="number" id="phoneNumber" placeholder="Enter Your Phone Number"></span>
+                </h5>
+
+                <p class="address">
+                    <textarea name="" id="contactAddress" cols="81" rows="2" placeholder="Enter Address"></textarea>
+                </p>
+
+                <label for="">CAREER PROFILE</label>
+                <p class="careerProfile">
+                    <textarea name="" id="goals" cols="81" rows="2" style="margin-top: -5px;" placeholder="Please Enter your Objectives/Goals"></textarea>
+                </p><br>
+            </div>
+            <!-- end of personal info form -->
+
+            <!-- start of skills form -->
+            <div class="skills">
+                <hr>
+                <label for="">SKILLS AND ABILITIES</label>
+                <hr>
+                <P class="p-skill">The following are my best skills which I believe are applicable to the position I have applied for:</P>
+                <ul>
+                    <li class="skillOne"><input type="text" class="skillset" id="skill1" placeholder="Enter skill"></li><br>
+                    <li class="skillTwo"><input type="text" class="skillset" id="skill2" placeholder="Enter skill"></li><br>
+                    <li class="skillThree"><input type="text" class="skillset" id="skill3" placeholder="Enter skill"></li><br>
+                    <li class="skillFour"><input type="text" class="skillset" id="skill4" placeholder="Enter skill"></li><br>
+                </ul>
+            </div>
+            <!-- end of skills form -->
+
+            <!-- start of work form -->
+            <hr>
+            <label for="">WORK EXPERIENCE</label>
+            <hr>
+            <div class="work">
+                <div class="firstJob">
+                    <p class="jobTitle1">
+                        <input type="text" id="f_jobTitle" class="jobDetails" placeholder="Enter Job Title e.g Software Engr">
+                    </p>
+                    <p class="companyName1">
+                        <input type="text" id="f_companyName" class="jobDetails" placeholder="Enter Company Name">
+                    </p>
+                    <p class="companyLoc1">
+                        <input type="text" id="f_companyLoc" class="jobDetails" placeholder="Enter Company Location e.g City/State">
+                    </p>
+                    <p class="empDuration1">
+                        <input type="text" id="f_empDuration" class="jobDetails" placeholder="Enter Job Duration">
+                    </p>
+
+                    <p class="userDuties1">
+                        <textarea name="" id="duties1" cols="35" rows="10" placeholder="Enter Duties.If it is more than one list them numerically"></textarea>
+                    </p>
+                </div>
+                <div class="secondJob">
+                    <p class="jobTitle2">
+                        <input type="text" id="s_jobTitle" class="jobDetails" placeholder="Enter Job Title e.g Intern">
+                    </p>
+                    <p class="companyName2">
+                        <input type="text" id="s_companyName" class="jobDetails" placeholder="Enter Company Name">
+                    </p>
+                    <p class="companyLoc2">
+                        <input type="text" id="s_companyLoc" class="jobDetails" placeholder="Enter Company Location e.g City/State">
+                    </p>
+                    <p class="empDuration2">
+                        <input type="text" id="s_empDuration" class="jobDetails" placeholder="Enter Job Duration">
+                    </p>
+
+
+                    <p class="userDuties2">
+                        <textarea name="" id="duties2" cols="35" rows="10" placeholder="Enter Duties. If it is more than one list them numerically"></textarea>
+                    </p>
+                </div>
+
+
+
+
+
+            </div>
+            <!-- end of work form -->
+
+            <!-- education form -->
+            <hr>
+            <label for="">EDUCATION</label>
+            <hr>
+            <div class="education">
+                <div class="firstSchool">
+
+                    <p class="schoolName1">
+                        <input type="text" class="schoolInfo" id="f_schoolName" placeholder="Enter School Name">
+                    </p>
+                    <p class="schoolLoc1">
+                        <input type="text" class="schoolInfo" id="f_schoolLoc" placeholder="Enter School Location">
+                    </p>
+                    <p class="studDegree1">
+                        <input type="text" class="schoolInfo" id="f_studDegree" placeholder="Enter Degree Earned">
+                    </p>
+                </div>
+
+                <div class="secondSchool">
+                    <p class="schoolName2">
+                        <input type="text" class="schoolInfo" id="s_schoolName" placeholder="Enter School Name">
+                    </p>
+                    <p class="schoolLoc2">
+                        <input type="text" class="schoolInfo" id="s_schoolLoc" placeholder="Enter School Location">
+                    </p>
+                    <p class="studDegree2">
+                        <input type="text" class="schoolInfo" id="s_studDegree" placeholder="Enter Degree Earned">
+                    </p>
+                </div>
+
+
+
+            </div>
+            <!-- end of education form -->
+            <hr>
+            <label>CAREER SUMMARY</label>
+            <hr>
+            <p class="summary">
+                <textarea name="" id="careerSum" cols="81" rows="2" placeholder="Write A summary of why you should be hired"></textarea>
+            </p>
+        </form>
+
+        <div class="buttons">
+            <button type="submit" class="actionBtn" id="btnSubmit">SUBMIT</button>
+            <button type="submit" class="actionBtn" id="btnDownload">DOWNLOAD</button>
+        </div>
+        <div id="msg "></div>
+    </div>
+
+
+    <script src="js/cv.js"></script>
+</body>
+
+</html>
